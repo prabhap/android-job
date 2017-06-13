@@ -84,7 +84,7 @@ public final class JobRequest {
      * @see Builder#setPeriodic(long)
      * @see Builder#setPeriodic(long, long)
      */
-    public static final long MIN_INTERVAL = TimeUnit.MINUTES.toMillis(15);
+    public static final long MIN_INTERVAL = 30000;
 
     /**
      * The minimum flex of a periodic job. Specifying a smaller flex will result in an exception.
